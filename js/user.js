@@ -1,5 +1,5 @@
 function clickNavViewUser() {
-  $(".main").load("html/user.html", function () {
+  $(".main").load("html/User.html", function () {
     if (roleUser == "EMPLOYEE") {
       $("#canNotGetAccount").modal("hide");
       $("#canNotGetAccount").modal("hide");

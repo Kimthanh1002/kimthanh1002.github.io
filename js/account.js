@@ -1,6 +1,6 @@
 //account
 function clickNavViewListAccounts() {
-  $(".main").load("html/viewlistAccounts.html", function () {
+  $(".main").load("html/viewListAccounts.html", function () {
     if (roleUser == "EMPLOYEE") {
       $("#canNotGetAccount").modal("hide");
       $("#canNotGetAccount").modal("show");
